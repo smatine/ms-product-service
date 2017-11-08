@@ -61,8 +61,8 @@ public class ProductServiceController {
 	@RequestMapping(value = "/test", method = RequestMethod.GET, produces = "application/json")
 	@CrossOrigin
 	public String testService() {
-		//return "ProductService Sucess from port 8084";
-		return "ProductService Sucess from port 8085";
+		return "ProductService Sucess from port 8084";
+		//return "ProductService Sucess from port 8085";
 	}
 
 
