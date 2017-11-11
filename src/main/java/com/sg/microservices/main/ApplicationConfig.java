@@ -14,6 +14,7 @@ public class ApplicationConfig {
 	static class JerseyConfig extends ResourceConfig {
 		public JerseyConfig() {
 			this.packages("com.sg.microservices.product");
+			
 		}
 	}
 
